@@ -16,3 +16,23 @@ button.addEventListener('click', (ev) => {
         alert('senha errada')
     }
 })
+
+function seePassword () {
+    password.type = 'text'
+    passwordConfirm.type = 'text'
+}
+
+function dontSeePassword() {
+    password.type = 'password'
+    passwordConfirm.type = 'password'
+}
+
+password.addEventListener('mouseover', () => seePassword()) 
+password.addEventListener('mouseout', () => dontSeePassword()) 
+
+passwordConfirm.addEventListener('mouseover', () => seePassword()) 
+passwordConfirm.addEventListener('mouseout', () => dontSeePassword()) 
+
+
+
+
