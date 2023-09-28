@@ -1,30 +1,53 @@
-
-/* mobile */
-@media (max-width: 480px) {
-
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-/* extra small devices */
-@media (min-width: 481px) and (max-width: 767px) {
-    
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* small tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-    
+.box{
+    background-color: #58158b;
+    width: 25rem;
+    height: 25rem;
+    border: 4px solid #e1ff00cf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* large tablets/laptops*/
-@media (min-width: 992px) and (max-width: 1199px) {
-    
+label {
+    color: #fff;
+    font-size:x-large;
 }
 
-/* desktops */
-@media (min-width: 1200px) and (max-width: 1919px) {
-    
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: x-large;
 }
 
-/* extra large screens */
-@media (min-width: 1920px) {
-    
+button{
+    background-color: #000;
+    border: 2px solid #e1ff00cf;
+    width: 8rem;
+    border-radius: 10px;
+}
+
+input{
+    border: 2px solid #000;
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 6px;
 }
