@@ -1,0 +1,24 @@
+@import url('./style1.css');
+
+#button-page3 {
+    width: 10rem;
+    height: 2rem;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+label {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+input {
+    width: 2rem;
+    margin-right: 2rem;
+}
+
