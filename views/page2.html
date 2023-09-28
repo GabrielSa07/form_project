@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Step-Form</title> 
-    <link rel="stylesheet" href="../style/style2.css">
-</head>
-<body>
+<html lang="pt-br">
 
-    
-    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Step-Form</title>
+    <link rel="stylesheet" href="../style/style2.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <label for="number">Número:</label>
+            <input type="text" id="number">
+
+            <br>
+
+            <label for="country">País:</label>
+            <input type="text" id="country">
+
+            <br>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep">
+
+            <br>
+
+            <label for="gender">Gênero:</label>
+            <select id="gender">
+                <option value="escolha" selected> Escolha uma opção:</option>
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
+                <option value="null">Prefiro não informar</option>
+            </select>
+
+            <br>
+
+            <button><a href="../views/page1.html">Voltar</a></button>
+            <button><a href="../views/page3.html">Próximo</a></button>
+        </div>
+    </div>
 
     <script src="../js/index2.js"></script>
 </body>
+
 </html>
